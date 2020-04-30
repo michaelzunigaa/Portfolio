@@ -5,7 +5,7 @@
 
     
     
-$("#contact").click(function(){
-    event.preventDefault();
-    console.log("hello World");
-});
+// $("#contact").click(function(){
+//     event.preventDefault();
+//     console.log("hello World");
+// });

@@ -8,96 +8,207 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
-  <ul class="nav nav-pills nav-fill">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <li class="nav-item">
-      <a class="nav-link" href="index.html">About Me </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="Projects.html">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact Me</a>
-    </li>
-    <!-- <li class="nav-item">
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </li> -->
-  </ul>
+
+
+
+
+
 
 
 
 </head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Michael Zuniga</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="main.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="Projects.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+</header>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <h1> <span class="badge badge-info">Michael Zuniga</span>
-      </div>
-      <div class="col-4"></div>
-      <div class="col-4"></div>
-    </div>
-  </div>
 
-  <div class="container">
+
+  <div class="container" id="project-div">
     <div class="row">
+
       <div class="col mb-4">
         <div class="card h-100">
-          <img src="assets/images/weather.jpeg" class="rounded card-img-top-project" alt="weather-icon">
+          <img src="assets/images/weather.jpeg" class="rounded card-img-top" alt="weather-icon">
           <div class="card-body">
             <h5 class="card-title">Weather DashBoard</h5>
             <p class="card-text">This is a small app that tracks the weather forecast. The app able to save your recent
-              searchesso you can easily manage trips and vacations!</p>
-              <a class="btn btn-primary" href="https://michaelzunigaa.github.io/Weather-Dashboard/" role="button">Check it Out!</a>
-              <a class="btn btn-primary" href="https://github.com/michaelzunigaa/Weather-Dashboard" role="button">Github Link</a>
+              searches so you can easily manage trips and vacations!</p>
+
+            <a class="btn btn-light" href="https://michaelzunigaa.github.io/Weather-Dashboard/" role="button">Check
+              it Out!</a>
+            <a class="btn btn-light" href="https://github.com/michaelzunigaa/Weather-Dashboard"
+              role="button">GithubLink</a>
           </div>
         </div>
       </div>
+
       <div class="col mb-4">
         <div class="card h-100">
-          <img src="assets/images/full-logo.png" class="rounded card-img-top-project" alt="sloth logo">
+          <img src="assets/images/calander.png" class="rounded card-img-top" alt="calender">
           <div class="card-body">
-            <h5 class="card-title">Social Distance</h5>
-            <p class="card-text">With the unforseen circumstances of the novel Covid-19 Virus. My team thought of an idea
-              of having an app to help us keep the distances between us, but also keep us social.</p>
-              <a class="btn btn-primary" href="https://bbelka.github.io/covidDistractions/" role="button">Check it Out!</a>
-              <a class="btn btn-primary" href="https://github.com/bbelka/covidDistractions" role="button">Github Link</a>
+            <h5 class="card-title">Work Day Planner</h5>
+            <p class="card-text">Simple calender application that allows user to save events to each hour of the current
+              work day.</p>
+
+            <a class="btn btn-light" href="https://michaelzunigaa.github.io/Daily-Planner/" role="button">Check
+              it Out!</a>
+            <a class="btn btn-light" href="https://github.com/michaelzunigaa/Weather-Dashboard"
+              role="button">GithubLink</a>
           </div>
         </div>
       </div>
+
+
+
       <div class="col mb-4">
         <div class="card h-100">
-          <img src="assets/images/javascript_logo.jpeg" class="rounded card-img-top-project" alt="javascript_logo">
+          <img src="assets/images/notetaker.png" class="rounded card-img-top" alt="calender">
           <div class="card-body">
-            <h5 class="card-title"> Javascript Password Generator</h5>
-            <p class="card-text">With this handy tool we are able to set certain guidelines like, password length, or do you want numbers, or maybe you want some symbols? These are just a few of the password criteria options availible on the app!</p>
-            <a class="btn btn-primary" href="https://michaelzunigaa.github.io/Password-Generator/" role="button">Check it Out!</a>
-              <a class="btn btn-primary" href="https://github.com/michaelzunigaa/Password-Generator" role="button">Github Link</a>
+            <h5 class="card-title">Express Notetaker</h5>
+            <p class="card-text">A nice easy to use Note taking application that allows users to write, save and delete
+              notes. That was made using the express npm package</p>
+
+            <a class="btn btn-light" href="https://amz-express-note-taker.herokuapp.com/" role="button">Check
+              it Out!</a>
+            <a class="btn btn-light" href="https://github.com/michaelzunigaa/Express-Homework-Note-Taker"
+              role="button">GithubLink</a>
           </div>
         </div>
       </div>
     </div>
+
+
+
+    <div class="row">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="assets/images/codequiz.png" class="rounded card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Code Quiz</h5>
+            <p class="card-text">This App features a timer that displays on the screen, that starts a quiz that the user
+              can then answer to score points!</p>
+               <a class="btn btn-light" href="https://michaelzunigaa.github.io/Javascript--Code-Quiz-/" role="button">Check
+              it Out!</a>
+            <a class="btn btn-light" href="https://github.com/michaelzunigaa/Javascript--Code-Quiz-"
+              role="button">GithubLink</a>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="assets/images/node-js.PNG"class="rounded card-img-top"alt="node logo">
+          <div class="card-body">
+            <h5 class="card-title"> Employee Tracker </h5>
+            <p class="card-text">  Node.js command line based employee management system with basic commands to add and manage Employees, Roles and Departments. Made using inquirer, and MySQL.</p>
+            <a class="btn btn-light" href="https://michaelzunigaa.github.io/MySQL-Employee-Tracker/" role="button">Check it
+              Out!</a>
+            <a class="btn btn-light" href="https://github.com/michaelzunigaa/MySQL-Employee-Tracker"
+              role="button">GithubLink</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="assets/images/javascript_logo.jpeg" class="rounded card-img-top" alt="javascript_logo">
+          <div class="card-body">
+            <h5 class="card-title"> Javascript Password Generator</h5>
+            <p class="card-text">With this handy tool we are able to set certain guidelines like, password length, or do
+              you want numbers, or maybe you want some symbols? These are just a few of the password criteria options
+              availible on the app!</p>
+            <a class="btn btn-light" href="https://michaelzunigaa.github.io/Password-Generator/" role="button">Check it
+              Out!</a>
+            <a class="btn btn-light" href="https://github.com/michaelzunigaa/Password-Generator"
+              role="button">GithubLink</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
     <div class="row">
       <div class="col mb-6">
         <div class="card h-100">
-          <img src="" class="rounded card-img-top" alt="...">
+          <img src="assets/images/full-logo.png" class="rounded card-img-top-project" alt="sloth logo">
           <div class="card-body">
-            <h5 class="card-title">Code Quiz</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
+            <h5 class="card-title">Social Distance</h5>
+            <p class="card-text">With the unforseen circumstances of the novel Covid-19 Virus. My team thought of an
+              idea
+              of having an app to help us keep the distances between us, but also keep us social.</p>
+
+            <a class="btn btn-light" href="https://bbelka.github.io/covidDistractions/" role="button">Check it
+              Out!</a>
+            <a class="btn btn-light" href="https://github.com/bbelka/covidDistractions" role="button">Github Link</a>
           </div>
         </div>
       </div>
+
+      <div class="col mb-6">
+        <div class="card h-100">
+          <img src="assets/images/Geogram.png" id="geogram" class="rounded card-img-top-project" alt="geogram logo">
+          <div class="card-body">
+            <h5 class="card-title">Geogram</h5>
+            <p class="card-text">Full Stack Applicat</p>
+            <a class="btn btn-light" href="https://murmuring-waters-09325.herokuapp.com//" role="button">Check it
+              Out!</a>
+            <a class="btn btn-light" href="https://github.com/vb27/RestaurantMapApp" role="button">Github Link</a>
+          </div>
+        </div>
+      </div>
+
+
     </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="assets/script/myscript.js"></script>
+  
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/script/myscript.js"></script>
 </body>
 <footer>
   <p></p>
-  <p>Contact information: <a href="michaelZunigaa@gmail.com">
+  <p>Contact information: <a  class="contact-me"  href="michaelZunigaa@gmail.com">
       michaelZunigaa@gmail.com</a>.</p>
 </footer>
 
