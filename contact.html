@@ -5,19 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio-Contact-Me</title>
+
+  <!-- Font Awesome Import -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap Import -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Google Fonts Import -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+SC:wght@500&display=swap" rel="stylesheet">
+  <!-- my css.sheeet -->
   <link rel="stylesheet" href="assets/css/style.css">
-
-
-
-
-
-
 </head>
+
 <header>
-    
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">Michael Zuniga</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -36,11 +37,11 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="Projects.html">Portfolio 
+          <a class="nav-link" href="Projects.html">Projects</a>
         </li>
 
         <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact Me <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="contact.html">Contact Me<span class="sr-only">(current)</span></a>
         </li>
 
       </ul>
@@ -48,48 +49,33 @@
   </nav>
 
 
-  </header>
-
-
-<div class="container">
- 
-  <div class="row">
-    <div class="col-4"></div>
-    <div class="col-4"></div>
-    <div class="col-4"></div>
-  </div>
-</div>
-
+</header>
 
 
 <body>
-  <div class="bg"></div>
+
   <div class="container" id="contact-div">
+    <h class="contact-header">Connect with Me!</h>
     <div class="row">
+      <div class="col-2" id="contact-form">
 
-      <div class="col-9" id="contact-form">
-        <h class="contact-me-h">Contact</h>
-        <form  action="mailto:michaelzunigaa@gmail.com" method="POST" enctype="text/plain">
-          <div class="form-group">
-            <label class="contact-me" for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label class="contact-me" for="exampleInputName">Name</label>
-            <input type="text" class="form-control" id="exampleInputName">
-          </div>
-
-          <div class="form-group">
-            <label class="contact-me" for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="submit" id="contact" class="btn-cont btn-dark form">Submit</button>
-            
-
-
+        <form action="mailto:michaelzunigaa@gmail.com" method="POST" enctype="text/plain">
+          <button type="submit" id="contact" class="btn btn-outline-dark-lg">
+            <i class="fa fa-google fa-5x" aria-hidden="true"></i></button>
         </form>
+
       </div>
+
+
+
+      <a class="btn btn-outline-dark-lg" href="https://github.com/michaelzunigaa">
+        <i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+
+      <a class="btn btn-outline-dark-lg" href="https://www.linkedin.com/in/michael-zuniga-495364105/">
+        <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
+
+
+
 
 
 
