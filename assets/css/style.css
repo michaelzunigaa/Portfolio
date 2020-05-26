@@ -88,10 +88,12 @@ footer {
 
 
 .card-body {
+    justify-content: center;
     align-content: center;
     background-color: lightgrey;
     border: darkgrey;
     padding-top: 15%;
+    text-align: center;
 }
 
 .btn-cont {
